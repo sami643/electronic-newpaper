@@ -490,6 +490,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 400;
 }
 
+.section-title1 {
+  font-size: 25px;
+  color: #111;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
@@ -1457,5 +1464,38 @@ h1.temp {
   }
   #clock {
     font-size: 180%;
+  }
+}
+
+.listOfdirectory {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10%;
+}
+@media only screen and (max-width: 992px) {
+  .section-title1 {
+    font-size: 20px;
+  }
+  .listOfdirectory {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-title1 {
+    font-size: 17px;
+  }
+  .listOfdirectory {
+    font-size: 13px;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .section-title1 {
+    font-size: 15px;
+  }
+  .listOfdirectory {
+    font-size: 12px;
+    font-weight: normal;
   }
 }
