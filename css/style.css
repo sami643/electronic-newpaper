@@ -67,7 +67,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #475ea7, #1d7ecd);
   color: #fff;
   padding: 2px 20px 8px 20px;
   font-size: 16px;
@@ -78,13 +78,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #475ea7, #1d7ecd);
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #1dc8cd;
+  background: #1d3dcd;
   color: #fff;
 }
 
@@ -113,7 +113,9 @@ h6 {
   padding: 0;
   line-height: 1;
   display: inline-block;
-  font-weight: 300;
+  /* font-weight: 300; */
+  font-weight: bold;
+
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -133,6 +135,10 @@ h6 {
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
+}
+
+#submit-btn {
+  background: linear-gradient(45deg, #475ea7, #1d7ecd);
 }
 
 /*--------------------------------------------------------------
@@ -330,7 +336,8 @@ h6 {
   display: inline-block;
   color: #fff;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   outline: none;
 }
 
@@ -801,7 +808,6 @@ li {
   line-height: 24px;
 }
 
-
 /* Clients Section
 --------------------------------*/
 
@@ -1056,7 +1062,10 @@ li {
   padding: 60px 0;
   overflow: hidden;
 }
-
+.contact-about {
+  margin-top: 50px;
+ 
+}
 #contact .contact-about h3 {
   font-size: 36px;
   margin: 0 0 10px 0;
@@ -1074,8 +1083,32 @@ li {
   color: #888;
 }
 
-#contact .social-links {
+#contact .social-links,
+a {
   padding-bottom: 20px;
+  color: #1d7ecd;
+}
+
+#contact .social-links,
+a {
+  color: #1d7ecd;
+}
+
+.info {
+  margin-top: 50px;
+}
+.info i,
+a {
+  color: #1d7ecd;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+}
+.contact-item i {
+  margin-inline: 5%;
+  padding-top: 2%;
 }
 
 #contact .social-links a {
