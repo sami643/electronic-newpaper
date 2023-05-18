@@ -1064,7 +1064,6 @@ li {
 }
 .contact-about {
   margin-top: 50px;
- 
 }
 #contact .contact-about h3 {
   font-size: 36px;
@@ -1085,7 +1084,6 @@ li {
 
 #contact .social-links,
 a {
-  padding-bottom: 20px;
   color: #1d7ecd;
 }
 
@@ -1095,7 +1093,7 @@ a {
 }
 
 .info {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 .info i,
 a {
@@ -1111,7 +1109,7 @@ a {
   padding-top: 2%;
 }
 
-#contact .social-links a {
+/* #contact .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #fff;
@@ -1125,12 +1123,7 @@ a {
   height: 36px;
   transition: 0.3s;
   border: 1px solid #1dc8cd;
-}
-
-#contact .social-links a:hover {
-  background: #1dc8cd;
-  color: #fff;
-}
+} */
 
 #contact .info {
   color: #333333;
