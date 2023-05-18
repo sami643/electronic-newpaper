@@ -1,19 +1,25 @@
 /* CSS Document */
 @charset "UTF-8";
 
-@font-face {
+/* @font-face {
   font-family: "Vazir";
   src: url("../fonts/Vazir.eot");
   src: local("../fonts/Vazir"), url("../fonts/Vazir.woff") format("woff"),
     url("../fonts/Vazir.ttf") format("truetype"),
     url("../fonts/Vazir.svg") format("svg");
+} */
+
+@font-face {
+  font-family: "new-font";
+  src: url("../fonts/bahij_zar/Bahij_Zar/Bahij_Zar/Bahij_Zar-Bold.ttf")
+    format("truetype");
 }
-/*
-  Theme Name: Avilon
-  Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
+
+@font-face {
+  font-family: "new-font-regular";
+  src: url("../fonts/bahij_zar/Bahij_Zar/Bahij_Zar-Regular.ttf")
+    format("truetype");
+}
 
 /*--------------------------------------------------------------
 # General
@@ -22,7 +28,7 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Vazir";
+  font-family: "new-font-regular";
   direction: rtl;
   overflow-x: hidden;
 }
@@ -324,7 +330,7 @@ h6 {
   display: inline-block;
   color: #fff;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
 }
 
@@ -348,7 +354,7 @@ h6 {
   color: #333;
   transition: 0.3s;
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: none;
 }
 
@@ -492,7 +498,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-title1 {
   font-size: 25px;
-  color: #111;
+  /* color: #111; */
   font-weight: bold;
   /* text-align: center; */
 }
@@ -628,7 +634,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .features .description {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 10px;
 }
@@ -779,20 +785,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: 25px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 #more-features h4 a {
   color: #111;
 }
 
-#more-features p {
-  font-size: 14px;
+#more-features p,
+li {
+  font-size: 20px;
   margin: 0px 25px 25px 10px;
 
   margin-bottom: 0;
   line-height: 24px;
 }
+
 
 /* Clients Section
 --------------------------------*/
@@ -1170,7 +1178,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
   color: #333;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #footer .credits {
