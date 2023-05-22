@@ -247,7 +247,7 @@ switch (monthdte) {
       var daysun = dtedte + 11;
     } else {
       var sunmonth = "غویی/ ثور";
-      var daysun = dtedte - 20;
+      var daysun = dtedte - 21;
     }
     break;
   case 4:
@@ -257,7 +257,7 @@ switch (monthdte) {
       var daysun = dtedte + 10;
     } else {
       var sunmonth = "غبرگولی/ جوزا";
-      var daysun = dtedte - 21;
+      var daysun = dtedte - 22;
     }
 
     break;
