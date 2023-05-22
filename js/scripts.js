@@ -254,7 +254,7 @@ switch (monthdte) {
     sunyear = yeardte - 621;
     if (dtedte <= 21) {
       var sunmonth = "غویی/ ثور";
-      var daysun = dtedte + 9;
+      var daysun = dtedte + 10;
     } else {
       var sunmonth = "غبرگولی/ جوزا";
       var daysun = dtedte - 21;
