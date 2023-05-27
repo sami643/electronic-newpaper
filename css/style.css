@@ -501,10 +501,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #111;
   text-align: center;
   font-weight: 400;
-  font-weight: bold ;
+  font-weight: bold;
 }
 @media only screen and (max-width: 1200px) {
-
   .section-header .section-title {
     font-size: 38px;
     color: #111;
@@ -512,8 +511,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 400;
     font-weight: bold;
   }
- }
- @media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 768px) {
   .section-header .section-title {
     font-size: 32px;
     color: #111;
@@ -521,21 +520,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 400;
     font-weight: bold;
   }
-  
- }
- @media only screen and (max-width: 450px) {
+}
+@media only screen and (max-width: 450px) {
   .section-header .section-title {
     font-size: 26px;
     color: #111;
     text-align: center;
     font-weight: 400;
-    font-weight:bold ;
+    font-weight: bold;
   }
-  
- }
+}
 
 .section-title1 {
-  font-size: 25px;
+  font-size: 40px;
   /* color: #111; */
   font-weight: bold;
   /* text-align: center; */
@@ -588,43 +585,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 300;
   font-size: 24px;
 }
-#session .content h1{
+#session .content h1 {
   font-size: 32px;
   font-weight: 400;
   font-weight: bold;
 }
 @media screen and (max-width: 1200px) {
-  #session .content h1{
+  #session .content h1 {
+    padding-top: 20px;
     font-size: 32px !important;
     font-weight: 400;
     font-weight: bold;
   }
-  
 }
 @media screen and (max-width: 768px) {
-  #session .content h1{
+  #session .content h1 {
     font-size: 22px !important;
     font-weight: 400;
     font-weight: bold;
   }
-  
 }
-@media  screen and (max-width: 450px) {
-  #session .content h1{
+@media screen and (max-width: 450px) {
+  #session .content h1 {
     font-size: 12px !important;
     font-weight: 400;
     font-weight: bold;
   }
-  
 }
-@media  screen and (max-width: 450px) {
-  #session .content h1{
+@media screen and (max-width: 450px) {
+  #session .content h1 {
     font-size: 20px;
     font-weight: 300;
   }
-  
 }
-
 
 #about .content h3 {
   color: #777;
@@ -633,7 +626,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 26px;
   font-style: italic;
 }
-
 
 #about .content p {
   line-height: 26px;
@@ -703,9 +695,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 300;
   margin-bottom: 15px;
   font-size: 22px;
-  
 }
-
 
 .features .title a {
   color: #111;
@@ -866,41 +856,30 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 31px;
 }
 @media screen and (max-width: 1200px) {
-  #more-features h4{
-
+  #more-features h4 {
     font-size: 31px;
   }
-  
 }
 @media screen and (max-width: 768px) {
-  #more-features h4{
-
+  #more-features h4 {
     font-size: 21px;
   }
-  
 }
 @media screen and (max-width: 450px) {
-  #more-features h4{
-
+  #more-features h4 {
     font-size: 16px;
-    
   }
-  
 }
 
 #more-features h4 a {
   color: #111;
 }
-.listOfdirectory li a{
-
+.listOfdirectory li a {
   color: #666666;
 }
-.listOfdirectory li a:hover{
-
+.listOfdirectory li a:hover {
   color: #1d7ecd;
 }
-
-
 
 #more-features p,
 li {
@@ -908,50 +887,42 @@ li {
   margin: 0px 25px 25px 10px;
 
   margin-bottom: 0;
-  line-height: 30px;
 }
-#more-features li{
+#more-features li {
   font-size: 32;
 }
 @media screen and (max-width: 1200px) {
-  #more-features
-li {
-  font-size: 28px;
-
-} 
+  #more-features li {
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 768px) {
-  #more-features
-li {
-  font-size: 24px;
-
-} 
+  #more-features li {
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 450px) {
-  #more-features
-li {
-  font-size: 18px;
-
-} 
+  #more-features li {
+    font-size: 18px;
+  }
 }
-#more-features p{
+#more-features p {
   font-size: 32px;
-
 }
 @media screen and (max-width: 1200px) {
   #more-features p {
-  font-size: 28px;
-}
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 768px) {
   #more-features p {
-  font-size: 24px;
-}
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 450px) {
   #more-features p {
-  font-size: 18px;
-}
+    font-size: 18px;
+  }
 }
 
 /* Clients Section
@@ -1647,12 +1618,10 @@ h1.temp {
   }
 }
 
-    
 .listOfdirectory {
   font-size: 20px;
   font-weight: bold;
   margin-right: 10%;
-
 }
 @media only screen and (max-width: 1200px) {
   .section-title1 {
@@ -1693,56 +1662,39 @@ h1.temp {
 /* introduction boss */
 
 .technical-p {
- font-size: 28px;
-
- }
+  font-size: 32px;
+}
 @media only screen and (max-width: 1200px) {
- .technical-p {
- font-size: 22px;
-
- }
- 
+  .technical-p {
+    font-size: 28px;
+  }
 }
 @media only screen and (max-width: 768px) {
- .technical-p {
-   font-size: 18px;
- }
- 
+  .technical-p {
+    font-size: 24px;
+  }
 }
 @media only screen and (max-width: 500px) {
- .technical-p {
-   font-size: 14px;
-
- }
- 
-}
-@media only screen and (max-width: 350px) {
- .technical-p {
-   font-size: 8px;
-
- }
- 
+  .technical-p {
+    font-size: 18px;
+  }
 }
 
-.unOrderList li{
-font-size: 28px;
+.unOrderList li {
+  font-size: 32px;
 }
 @media screen and(max-width: 1200px) {
-  .unOrderList li{
-    font-size: 20px;
+  .unOrderList li {
+    font-size: 28px;
   }
-  
 }
 @media screen and(max-width: 768px) {
-  .unOrderList li{
-    font-size: 16px;
+  .unOrderList li {
+    font-size: 24px;
   }
-  
 }
 @media screen and(max-width: 450px) {
-  .unOrderList li{
-    font-size: 14px;
+  .unOrderList li {
+    font-size: 18px;
   }
-  
 }
-
