@@ -55,6 +55,16 @@
 					</li> -->
 
             <li><a href="#contact1">تماس با ما</a></li>
+            <li>
+              <a href="#">لینک تلگرام</a>
+              <ul class="bg-transparent">
+                <li><a href="https://t.me/TVETA_MIS_Group">MIS</a></li>
+                <li><a href="https://t.me/TVETA_IT_Group">IT</a></li>
+                <li>
+                  <a href="https://t.me/TVETA_Statistics_Group">Statistics</a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </nav>
         <!-- #nav-menu-container -->
@@ -165,36 +175,36 @@
               <li>
                 <a
                   href="#position"
+                  data-toggle="tooltip"
+                  data-placement="right"
                   title="برای بازدید کلیک کنید"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
                   >ریاست محترم دفتر مقام</a
                 >
               </li>
               <li>
                 <a
                   href="#supervision"
+                  data-toggle="tooltip"
+                  data-placement="right"
                   title="برای بازدید کلیک کنید"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
                   >ریاست محترم ارزیابی و نظارت تعلیمی و تحصیلی</a
                 >
               </li>
               <li>
                 <a
                   href="#inspection"
+                  data-toggle="tooltip"
+                  data-placement="right"
                   title="برای بازدید کلیک کنید"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
                   >ریاست محترم تفتیش داخلی</a
                 >
               </li>
               <li>
                 <a
                   href="#professional"
+                  data-toggle="tooltip"
+                  data-placement="right"
                   title="برای بازدید کلیک کنید"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
                   >ریاست محترم تنظیم برنامه های حرفوی</a
                 >
               </li>
@@ -659,7 +669,7 @@
                 </p>
                 <div class="social-links">
                   <a
-                    href="#"
+                    href="https://twitter.com/AfghanistanTvet"
                     class="twitter"
                     style="
                       margin-inline: 10px;
@@ -669,7 +679,7 @@
                     ><i class="fa fa-twitter"></i
                   ></a>
                   <a
-                    href="#"
+                    href="https://tinyurl.com/2p8w8m7s"
                     class="facebook"
                     style="margin-inline: 10px; font-size: 22px"
                     ><i class="fa fa-facebook"></i
@@ -681,7 +691,7 @@
                     ><i class="fa fa-instagram"></i
                   ></a>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/@AfghanistanTvet"
                     class="youtube"
                     style="margin-inline: 10px; font-size: 22px"
                     ><i class="fa fa-youtube"></i
@@ -876,13 +886,14 @@
         });
     </script>
 
-    <script>
-      var tooltipTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="tooltip"]')
-      );
-      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-      });
+<script>
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip();
+		$('.pmd-tooltip').on('inserted.bs.tooltip', function () {
+			$('.tooltip').addClass('pmd-tooltip');
+		})
+	})
+</script>
     </script>
   </body>
   <!-- This template has been downloaded from Webrubik.com -->
