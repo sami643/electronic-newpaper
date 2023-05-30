@@ -1701,3 +1701,89 @@ h1.temp {
 .kinds-amer li {
   font-size: 30px;
 }
+
+/* message sent justifying message */
+
+.confirmation-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  height: 22%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  border-radius: 5%;
+  z-index: 5;
+}
+
+/* 
+.confirmation-card button {
+
+} */
+
+.confirmation-card h2 {
+  margin-top: 0;
+}
+
+.confirmation-actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.confirm-button,
+.cancel-button {
+  padding: 10px 40px 10px 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#okbutton :hover {
+  background: linear-gradient(45deg, #2647b3, #034f8d);
+}
+
+.confirm-button {
+  background: linear-gradient(45deg, #475ea7, #1d7ecd);
+  color: #fff;
+}
+
+.flash-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.flash-message.show {
+  display: block;
+  animation: fadeOut 2s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .confirmation-card {
+    width: 350px;
+    height: 200px;
+  }
+}
