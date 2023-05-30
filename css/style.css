@@ -1735,8 +1735,7 @@ h1.temp {
   text-align: center;
 }
 
-.confirmation-card h2,
-p {
+.greating-message{
   font-weight: bold;
 }
 
