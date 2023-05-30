@@ -1317,7 +1317,6 @@ a {
 --------------------------------------------------------------*/
 
 #footer {
-
   background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
@@ -1706,11 +1705,12 @@ h1.temp {
 /* message sent justifying message */
 
 .confirmation-card {
+  padding-top: 10px;
   position: fixed;
   top: 50%;
   left: 50%;
   width: 25%;
-  height: 22%;
+  height: 23%;
   text-align: center;
   transform: translate(-50%, -50%);
   background-color: #fff;
@@ -1733,6 +1733,11 @@ h1.temp {
 .confirmation-actions {
   margin-top: 20px;
   text-align: center;
+}
+
+.confirmation-card h2,
+p {
+  font-weight: bold;
 }
 
 .confirm-button,
@@ -1782,9 +1787,9 @@ h1.temp {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .confirmation-card {
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 230px;
   }
 }
