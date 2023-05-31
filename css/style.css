@@ -92,7 +92,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 
-#header {
+/* #header {
   padding: 30px 0;
   height: 92px;
   position: fixed;
@@ -113,12 +113,13 @@ h6 {
   padding: 0;
   line-height: 1;
   display: inline-block;
-  /* font-weight: 300; */
+  \font-weight: 300; 
   font-weight: bold;
 
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
@@ -128,7 +129,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-}
+} */
 
 #header.header-fixed {
   background: linear-gradient(45deg, #475ea7, #1d7ecd);
@@ -263,7 +264,7 @@ h6 {
 --------------------------------------------------------------*/
 
 /* Nav Menu Essentials */
-
+/* 
 .nav-menu,
 .nav-menu * {
   margin: 0;
@@ -300,7 +301,7 @@ h6 {
 
 .nav-menu ul li {
   min-width: 180px;
-}
+} */
 
 /* Nav Menu Arrows */
 
@@ -323,13 +324,13 @@ h6 {
 
 /* Nav Meu Container */
 
-#nav-menu-container {
+/* #nav-menu-container {
   float: left;
   margin: 0;
-}
+} */
 
 /* Nav Meu Styling */
-
+/* 
 .nav-menu a {
   padding: 0 8px 10px 8px;
   text-decoration: none;
@@ -371,9 +372,140 @@ h6 {
 
 .nav-menu ul ul {
   margin: 0;
-}
+} */
 
 /* Mobile Nav Toggle */
+
+.navbar-brand {
+  padding-right: 10%;
+  font-size: 32px;
+  font-weight: bold;
+}
+.bg-primary {
+  background: linear-gradient(45deg, #475ea7, #1d7ecd);
+}
+.navbar-nav {
+  width: 100%;
+  font-weight: bold;
+}
+
+.nav-item {
+  float: right;
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.nav-link {
+  padding-bottom: 10px;
+}
+
+.v-line {
+  background-color: gray;
+  width: 1px;
+  height: 20px;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    direction: rtl;
+    float: right;
+  }
+  .bg-transparent {
+    background: linear-gradient(45deg, #475ea7, #1d7ecd);
+  }
+  .nav-item {
+    width: 100%;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .v-line {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 576px) {
+  .navbar-nav {
+    direction: rtl;
+    float: right;
+  }
+  .bg-transparent {
+    background: linear-gradient(45deg, #475ea7, #1d7ecd);
+  }
+  .nav-item {
+    width: 100%;
+    text-align: right;
+    /* padding-right: 30px;
+    padding-left: 30px; */
+    margin-inline: 20px !important;
+  }
+
+  .v-line {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1920px) and (min-width: 1666px) {
+  .navbar-nav {
+    width: 100%;
+    direction: rtl !important;
+    float: left !important;
+    /* padding-left: 200px; */
+    padding-right: 500px;
+  }
+}
+@media only screen and (max-width: 1666px) and (min-width: 1400px) {
+  .navbar-nav {
+    width: 100%;
+    direction: rtl !important;
+    float: left !important;
+    /* padding-left: 100px; */
+    padding-right: 500px;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1168px) {
+  .navbar-nav {
+    width: 100%;
+    direction: rtl !important;
+    float: left !important;
+    /* padding-left: 100px; */
+    padding-right: 300px;
+  }
+}
+@media only screen and (max-width: 1168px) and (min-width: 992px) {
+  .navbar-nav {
+    width: 100%;
+    direction: rtl !important;
+    float: left !important;
+    /* padding-left: 100px; */
+    padding-right: 150px;
+  }
+}
+.navbar-nav a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+}
+#mepage {
+  color: #fff;
+  padding: 20px;
+}
+.dropdown-menu a:hover {
+  background-color: #344b96;
+}
+
+.dropdown-menu {
+  background-color: white;
+
+}
 
 #mobile-nav-toggle {
   position: fixed;
@@ -1735,7 +1867,7 @@ h1.temp {
   text-align: center;
 }
 
-.greating-message{
+.greating-message {
   font-weight: bold;
 }
 
