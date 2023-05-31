@@ -18,48 +18,74 @@
     <!--==========================
 	  Header
 	============================-->
-    <header id="header">
-      <div class="container">
-        <div id="logo" class="pull-left">
-          <h1><a href="#intro" class="scrollto">TVETA </a></h1>
-
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="#intro"><img src="pics/logo.png" alt="" title=""></a> -->
-        </div>
-        <nav id="nav-menu-container">
-          <ul class="nav-menu">
-            <li class="menu-active"><a href="#intro">اصلی</a></li>
-            <li><a href="#announcement">اطلاعیه</a></li>
-            <li><a href="#session">جلسه اصلاحی</a></li>
-
-            <li><a href="#more-features">دستاورد ها</a></li>
-            <!-- <li><a href="#pricing">نصاب</a></li>
-					<li><a href="#team">املاک</a></li>
-					<li><a href="#gallery">پلان</a></li> -->
-            <!-- <li class="menu-has-children"><a href="">Drop Down</a>
-						<ul>
-							<li><a href="#">Drop Down 1</a></li>
-							<li class="menu-has-children"><a href="#">Drop Down 2</a>
-								<ul>
-									<li><a href="#">Deep Drop Down 1</a></li>
-									<li><a href="#">Deep Drop Down 2</a></li>
-									<li><a href="#">Deep Drop Down 3</a></li>
-									<li><a href="#">Deep Drop Down 4</a></li>
-									<li><a href="#">Deep Drop Down 5</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Drop Down 3</a></li>
-							<li><a href="#">Drop Down 4</a></li>
-							<li><a href="#">Drop Down 5</a></li>
-						</ul>
-					</li> -->
-
-            <li><a href="#contact1">تماس با ما</a></li>
+    <div class="container-fluid px-0">
+      <nav
+        class="navbar navbar-expand-lg text-white navbar-dark bg-primary pt-3"
+      >
+        <a class="navbar-brand" href="#">TVETA </a>
+        <button
+          class="navbar-toggler mr-3"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a id="mepage" class="nav-link" href="#intro">اصلی</a>
+            </li>
+            <li class="nav-item">
+              <a id="mepage" class="nav-link" href="#announcement">اطلاعیه</a>
+            </li>
+            <li class="nav-item">
+              <a id="mepage" class="nav-link" href="#session">جلسه اصلاحی</a>
+            </li>
+            <li class="nav-item">
+              <a id="mepage" class="nav-link" href="#more-features"
+                >دستاورد ها</a
+              >
+            </li>
+            <li class="nav-item">
+              <a id="mepage" class="nav-link" href="#contact1">تماس با ما</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                id="mepage"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                >لینک تلگرام</a
+              >
+              <div class="dropdown-menu">
+                <a
+                  class="dropdown-item"
+                  href="https://t.me/TVETA_MIS_Group"
+                  target="_blank"
+                  >MIS</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://t.me/TVETA_IT_Group"
+                  target="_blank"
+                  >IT</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://t.me/TVETA_Statistics_Group"
+                  target="_blank"
+                  >Statistics</a
+                >
+              </div>
+            </li>
           </ul>
-        </nav>
-        <!-- #nav-menu-container -->
-      </div>
-    </header>
+        </div>
+      </nav>
+    </div>
     <!-- #header -->
 
     <!--==========================
@@ -165,36 +191,18 @@
               <li>
                 <a
                   href="#position"
+                  data-toggle="tooltip"
+                  data-placement="right"
                   title="برای بازدید کلیک کنید"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
                   >ریاست محترم دفتر مقام</a
                 >
               </li>
               <li>
                 <a
-                  href="#supervision"
-                  title="برای بازدید کلیک کنید"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  >ریاست محترم ارزیابی و نظارت تعلیمی و تحصیلی</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#inspection"
-                  title="برای بازدید کلیک کنید"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  >ریاست محترم تفتیش داخلی</a
-                >
-              </li>
-              <li>
-                <a
                   href="#professional"
+                  data-toggle="tooltip"
+                  data-placement="right"
                   title="برای بازدید کلیک کنید"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="top"
                   >ریاست محترم تنظیم برنامه های حرفوی</a
                 >
               </li>
@@ -263,11 +271,11 @@
 
       <!-- ریاست دفتر مقام-->
       <section id="more-features" class="section-bg">
-        <div class="container-1">
+        <div class="container-1" id="position">
           <div class="row box rounded">
             <div class="col-lg-12">
               <div class="section-header wow fadeIn" data-wow-duration="3s">
-                <h3 class="section-title" id="position">د مقام د دفتر ریاست</h3>
+                <h3 class="section-title">د مقام د دفتر ریاست</h3>
                 <span class="section-divider"></span>
               </div>
             </div>
@@ -536,13 +544,11 @@
 
       <!-- ریاست تنظیم برنامه های حرفوی-->
       <section id="more-features" class="section-bg">
-        <div class="container-1">
+        <div class="container-1" id="professional">
           <div class="row box rounded">
             <div class="col-lg-12">
               <div class="section-header wow fadeIn" data-wow-duration="3s">
-                <h3 class="section-title" id="professional">
-                  ریاست تنظیم برنامه های حرفوی
-                </h3>
+                <h3 class="section-title">ریاست تنظیم برنامه های حرفوی</h3>
                 <span class="section-divider"></span>
               </div>
             </div>
@@ -659,7 +665,7 @@
                 </p>
                 <div class="social-links">
                   <a
-                    href="#"
+                    href="https://twitter.com/AfghanistanTvet"
                     class="twitter"
                     style="
                       margin-inline: 10px;
@@ -669,19 +675,19 @@
                     ><i class="fa fa-twitter"></i
                   ></a>
                   <a
-                    href="#"
+                    href="https://tinyurl.com/2p8w8m7s"
                     class="facebook"
                     style="margin-inline: 10px; font-size: 22px"
                     ><i class="fa fa-facebook"></i
                   ></a>
                   <a
-                    href="#"
+                    href=""
                     class="instagram"
                     style="margin-inline: 10px; font-size: 22px"
                     ><i class="fa fa-instagram"></i
                   ></a>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/@AfghanistanTvet"
                     class="youtube"
                     style="margin-inline: 10px; font-size: 22px"
                     ><i class="fa fa-youtube"></i
@@ -877,13 +883,35 @@
     </script>
 
     <script>
-      var tooltipTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="tooltip"]')
-      );
-      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        $(".pmd-tooltip").on("inserted.bs.tooltip", function () {
+          $(".tooltip").addClass("pmd-tooltip");
+        });
       });
     </script>
+    <!--navbarScript -->
+    <script>
+      $(function () {
+        $(".navbar").addClass("bg-transparent");
+        var header = $(".navbar");
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 500) {
+            header.removeClass("bg-transparent").addClass("bg-primary ");
+            header.addClass("fixed-top");
+          } else if (scroll <= 100) {
+            header.removeClass("bg-primary").addClass("bg-transparent ");
+            header.addClass("fixed-top");
+          } else {
+            header.removeClass("bg-primary ").addClass("bg-transparent");
+            header.addClass("transition");
+          }
+        });
+      });
+    </script>
+    <!--navbarScript -->
   </body>
   <!-- This template has been downloaded from Webrubik.com -->
 </html>
