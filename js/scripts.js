@@ -252,12 +252,12 @@ switch (monthdte) {
     break;
   case 4:
     sunyear = yeardte - 621;
-    if (dtedte <= 21) {
+    if (dtedte <= 20) {
       var sunmonth = "غویی/ ثور";
       var daysun = dtedte + 10;
     } else {
       var sunmonth = "غبرگولی/ جوزا";
-      var daysun = dtedte - 22;
+      var daysun = dtedte - 21;
     }
 
     break;
@@ -273,12 +273,12 @@ switch (monthdte) {
     break;
   case 6:
     sunyear = yeardte - 621;
-    if (dtedte <= 22) {
+    if (dtedte <= 21) {
       var sunmonth = "چنگاښ/سرطان";
-      var daysun = dtedte + 9;
+      var daysun = dtedte + 8;
     } else {
       var sunmonth = "زمری/ اسد";
-      var daysun = dtedte - 22;
+      var daysun = dtedte - 23;
     }
     break;
   case 7:
