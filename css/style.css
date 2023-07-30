@@ -504,7 +504,6 @@ h6 {
 
 .dropdown-menu {
   background-color: white;
-
 }
 
 #mobile-nav-toggle {
@@ -1922,5 +1921,15 @@ h1.temp {
   .confirmation-card {
     width: 300px;
     height: 230px;
+  }
+}
+
+.notifications {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .notifications {
+    display: block;
   }
 }
